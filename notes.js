@@ -61,6 +61,10 @@ const readNote = (title) => {
     if (foundNote) {
         console.log(chalk.inverse(foundNote.title))
         console.log(foundNote.body)
+    
+        // debugger
+        // // chrome://inspect/
+
     } else {
         console.log(chalk.red.inverse('Note not found!') )
     }
